@@ -33,6 +33,24 @@ consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua.
 ```
+## Slicing
+Slice From the Start
+```python
+b = "Hello, World!"
+print(b[:5]) # Hello
+```
+Slice To the End
+```python
+b = "Hello, World!"
+print(b[2:]) # llo, World!
+```
+Use negative indexes to start the slice from the end of the string:  
+From: "o" in "World!" (position -5)  
+To, but not included: "d" in "World!" (position -2)
+```python
+b = "Hello, World!"
+print(b[-5:-2]) # orl
+```
 ## Modify Strings
 ### Upper Case
 The **upper()** method returns the string in upper case:
@@ -75,5 +93,28 @@ out:
 ```
 Helld, Wdrld!
 ```
+## Split String
+The split() method in Python is used to break a string into smaller parts (called a list of substrings).
+```python
+a = "Hello, World!"
+print(a.split(","))
+```
+out:
+```
+['Hello', ' World!']
+```
+## Python, you can actually 
+It means repeating the string a certain number of times.
+```python
+word = "Hi "
+print(word * 3)
+```
+out:
+```
+Hi Hi Hi
+```
+
+
+
 
 

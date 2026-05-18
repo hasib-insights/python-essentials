@@ -113,6 +113,18 @@ out:
 ```
 Hi Hi Hi
 ```
+## String length
+The len() method is used to find the length of something — usually how many items are inside.
+```python
+text = "Python"
+print(len(text))
+```
+out:
+```
+6
+```
+"Python" has 6 characters.
+
 
 
 

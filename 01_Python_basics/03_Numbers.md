@@ -3,6 +3,8 @@ There are three numeric types in Python:
 1. `int`
 2. `float`
 3. `complex`
+
+  
 Example
 ```python   
 x = 1    # int

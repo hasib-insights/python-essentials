@@ -12,7 +12,6 @@
 | **Memory Usage** | Medium | Large | Small | Medium |
 | **Speed (Access)** | Fast | Very Fast | Fast | Medium |
 | **Speed (Iteration)** | Fast | Medium | Fast | Medium |
-| **Use Case** | Ordered collections | Key-value mapping | Immutable data | Unique items |
 
 
 ---

@@ -19,31 +19,31 @@
 ##  When to Use Which?
 
 ### Use LIST when you need:
-- ✅ Ordered collection
-- ✅ Mutable data
-- ✅ Allow duplicates
-- ✅ Fast indexing
-- ✅ Sequence operations
+- Ordered collection
+- Mutable data
+- Allow duplicates
+- Fast indexing
+- Sequence operations
 
 ### Use DICTIONARY when you need:
-- ✅ Key-value pairs
-- ✅ Fast lookup by key
-- ✅ Store relationships
-- ✅ Configuration data
-- ✅ Count/frequency tracking
+- Key-value pairs
+- Fast lookup by key
+- Store relationships
+- Configuration data
+- Count/frequency tracking
 
 ### Use TUPLE when you need:
-- ✅ Immutable data
-- ✅ Faster than lists
-- ✅ Dictionary keys
-- ✅ Fixed data collection
-- ✅ Return multiple values
+- Immutable data
+- Faster than lists
+- Dictionary keys
+- Fixed data collection
+- Return multiple values
 
 ### Use SET when you need:
-- ✅ Unique items
-- ✅ Mathematical operations
-- ✅ Remove duplicates
-- ✅ Membership testing
-- ✅ Common elements between collections
+- Unique items
+- Mathematical operations
+- Remove duplicates
+- Membership testing
+- Common elements between collections
 
 ---

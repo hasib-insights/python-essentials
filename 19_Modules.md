@@ -49,7 +49,7 @@ print(mymodule.PI)                 # 3.14159
    📄 mymodule.py                     📄 main.py                     
    ┌──────────────────────┐          ┌─────────────────────────────┐ 
    │ def greet(name):     │          │ import mymodule             │ 
-   │     return "Hello"   │◀────────│                             │ 
+   │     return "Hello"   │          │                             │ 
    │                      │          │ print(mymodule.greet("Bob"))│ 
    │ def add(a, b):       │          │ print(mymodule.add(5, 3))   │ 
    │     return a + b     │          │                             │ 
@@ -57,8 +57,7 @@ print(mymodule.PI)                 # 3.14159
    │ def multiply(a, b):  │          │ Hello Bob!                  │ 
    │     return a * b     │          │ 8                           │ 
    └──────────────────────┘          └─────────────────────────────┘ 
-│
-    Module defines functions             Main file uses them         
+   Module defines functions           Main file uses them         
                                                                       
 
 ```

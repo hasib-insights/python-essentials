@@ -61,6 +61,15 @@ print(mymodule.PI)                 # 3.14159
                                                                       
 
 ```
+### File Structure
+```
+my_project/
+│
+├── main.py          ← Your main program
+├── calculator.py    ← Your module
+└── utils.py         ← Another module
+```
+
 ### Types of Modules
 ```
                  
@@ -94,4 +103,25 @@ import math
 
 print(math.sqrt(25))   # 5.0
 print(math.pi)         # 3.14159
+```
+```python
+# 2. Import Specific Functions/Variables
+from math import sqrt, pi
+
+print(sqrt(25))   # 5.0
+print(pi)         # 3.14159
+```
+```python
+# 3. Import with an Alias (Nickname)
+import math as m
+
+print(m.sqrt(25))   # 5.0
+print(m.pi)         # 3.14159
+```
+```python
+# 4. Import Everything
+from math import *
+
+print(sqrt(25))   # 5.0
+print(pi)         # 3.14159
 ```

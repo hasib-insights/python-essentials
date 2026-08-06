@@ -13,3 +13,20 @@ A **module** is a **Python file** (`.py`) that contains code – like functions,
 | **Easy Debugging** | Fix issues in one place |
 
 ---
+
+### How to Create and Use a Module
+
+### Step 1: Create a Python file (e.g., `mymodule.py`)
+
+```python
+# mymodule.py
+def greet(name):
+    return f"Hello, {name}! Welcome to Python!"
+
+def add(a, b):
+    return a + b
+
+def multiply(a, b):
+    return a * b
+
+PI = 3.14159

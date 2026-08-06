@@ -42,23 +42,23 @@ print(mymodule.multiply(4, 2))     # 8
 print(mymodule.PI)                 # 3.14159
 ```
 ```python
-┌──────────────────────────────────────────────────────────────────────┐
-│                    HOW MODULES WORK                                 │
-├──────────────────────────────────────────────────────────────────────┤
-│                                                                      │
-│   📄 mymodule.py                     📄 main.py                     │
-│   ┌──────────────────────┐          ┌─────────────────────────────┐ │
-│   │ def greet(name):     │          │ import mymodule             │ │
-│   │     return "Hello"   │◀─────────│                             │ │
-│   │                      │          │ print(mymodule.greet("Bob"))│ │
-│   │ def add(a, b):       │          │ print(mymodule.add(5, 3))   │ │
-│   │     return a + b     │          │                             │ │
-│   │                      │          │ Output:                     │ │
-│   │ def multiply(a, b):  │          │ Hello Bob!                  │ │
-│   │     return a * b     │          │ 8                           │ │
-│   └──────────────────────┘          └─────────────────────────────┘ │
-│                                                                      │
-│   ✅ Module defines functions        ✅ Main file uses them         │
-│                                                                      │
-└──────────────────────────────────────────────────────────────────────┘
+
+                    HOW MODULES WORK                                 
+──────────────────────────────────────────────────────────────────────
+
+   📄 mymodule.py                     📄 main.py                     
+   ┌──────────────────────┐          ┌─────────────────────────────┐ 
+   │ def greet(name):     │          │ import mymodule             │ 
+   │     return "Hello"   │◀─────────│                             │ 
+   │                      │          │ print(mymodule.greet("Bob"))│ 
+   │ def add(a, b):       │          │ print(mymodule.add(5, 3))   │ 
+   │     return a + b     │          │                             │ 
+   │                      │          │ Output:                     │ 
+   │ def multiply(a, b):  │          │ Hello Bob!                  │ 
+   │     return a * b     │          │ 8                           │ 
+   └──────────────────────┘          └─────────────────────────────┘ 
+│
+    Module defines functions             Main file uses them         
+                                                                      
+
 ```

@@ -52,7 +52,7 @@ print(mymodule.PI)                 # 3.14159
    │     return "Hello"   │          │                             │ 
    │                      │          │ print(mymodule.greet("Bob"))│ 
    │ def add(a, b):       │          │ print(mymodule.add(5, 3))   │ 
-   │     return a + b     │          │__                           │ 
+   │     return a + b     │          │                             │ 
    │                      │          │ Output:                     │ 
    │ def multiply(a, b):  │          │ Hello Bob!                  │ 
    │     return a * b     │          │ 8                           │ 
@@ -60,4 +60,38 @@ print(mymodule.PI)                 # 3.14159
    Module defines functions           Main file uses them         
                                                                       
 
+```
+### Types of Modules
+```
+                 
+
+                                                                      
+   ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐    
+   │   Built-in      │  │   External      │  │   Custom        │    
+   │   Modules       │  │   Modules       │  │   Modules       │    
+   │                 │  │                 │  │                 │    
+   │ • math          │  │ • numpy         │  │ mymodule.py     │    
+   │ • random        │  │ • pandas        │  │ calculator.py   │    
+   │ • datetime      │  │ • matplotlib    │  │ utils.py        │    
+   │ • os            │  │ • scikit-learn  │  │ helpers.py      │    
+   └─────────────────┘  └─────────────────┘  └─────────────────┘    
+         │                      │                      │             
+         └──────────────────────┼──────────────────────┘             
+                                │                                     
+                                ▼                                     
+                    ┌─────────────────────────┐                      
+                    │   import module_name    │                      
+                    │   module_name.function()│                     
+                    └─────────────────────────┘                      
+                                                                      
+
+```
+---
+### Different Ways to Import
+```python
+# 1. Import the Whole Module
+import math
+
+print(math.sqrt(25))   # 5.0
+print(math.pi)         # 3.14159
 ```

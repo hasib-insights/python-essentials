@@ -65,9 +65,9 @@ print(mymodule.PI)                 # 3.14159
 ```
 my_project/
 │
-├── main.py        ← Your main program
-├── mymodule.py    ← module
-└── calculator.py       ← Another module
+├── main.py           ← Your main program
+├── mymodule.py       ← module
+└── calculator.py     ← Another module
 ```
 
 ### Types of Modules

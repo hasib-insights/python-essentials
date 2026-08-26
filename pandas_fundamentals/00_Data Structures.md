@@ -13,7 +13,7 @@ Pandas has two main data structures:
 >  DataFrame = The entire table with many columns
 
 ```
-─────────────────────────────────────────────────────────────────
+
                     PANDAS DATA STRUCTURES                       
 ─────────────────────────────────────────────────────────────────
                                                                  

@@ -7,6 +7,7 @@ Pandas has two main data structures:
 | DataFrame       | Tabular data    | 2D         |
 
 > Think of it like:
+>
 > Series = One column in a table
 > DataFrame = The entire table with many columns
 

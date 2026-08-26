@@ -20,7 +20,7 @@ Pandas has two main data structures:
    SERIES (1D)                    DATAFRAME (2D)                 
                                                                  
    ┌──────────────┐              ┌────────┬────────┬────────┐    
-   │ Index │ Value│              │        │ Name   │ Age    │    
+   │       │ Value│              │        │ Name   │ Age    │    
    ├──────────────┤              ├────────┼────────┼────────┤    
    │  0    │  10  │              │  0     │ Alice  │  25    │    
    │  1    │  20  │              │  1     │ Bob    │  30    │    

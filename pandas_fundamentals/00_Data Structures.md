@@ -8,7 +8,8 @@ Pandas has two main data structures:
 
 > Think of it like:
 > Series = One column in a table
+> DataFrame = The entire table with many columns
 
 
-Series = One column in a table
-DataFrame = The entire table with many columns
+
+

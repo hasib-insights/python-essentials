@@ -21,14 +21,6 @@ python_essential/
 
 Basic Python concepts needed before working with data, such as variables, data types, conditions, loops, functions, collections, and other essential concepts.
 
-- [Variables](python_fundamentals/01_variables_.md)
-- [Strings](./strings.py)
-- [Lists](./lists.py)
-- [Dictionaries](./dictionaries.py)
-- [Conditions](./conditions.py)
-- [Loops](./loops.py)
-- [Functions](./functions.py)
-
 ### Pandas Fundamentals
 
 Basic Pandas concepts and practices that are useful for working with and analyzing datasets.

@@ -24,3 +24,17 @@ Is there a correlation between two or more columns?
 ```python
 import pandas
 ```
+**Pandas is usually imported under the `pd` alias.**
+> alias: In Python alias are an alternate name for referring to the same thing.
+```python
+#Create an alias with the as keyword while importing:
+
+import pandas as pd
+```
+## Checking Pandas Version
+The version string is stored under `__version__` attribute.
+```python
+import pandas as pd
+
+print(pd.__version__)
+```

@@ -12,9 +12,9 @@ The repository is organized into different sections based on the topics I am lea
 ```text
 python_essential/
 │
-├── python_fundamentals/
-├── pandas_fundamentals/
-└── matplotlib_fundamentals/
+├── 00_python_fundamentals/
+├── 01_pandas_fundamentals/
+
 ```
 
 ### Python Fundamentals
